@@ -5,9 +5,9 @@ public class User {
     private int age;
     private String email;
 
-    // public User(String name, int age, String email) {
-    //    this.name = name;
-    //    this.age = age;
+    public User(String name, int age, String email) {
+        this.name = name;
+        this.age = age;
         this.email = email;
     }
 
